@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN EXPERIMENTAL</title>
 </head>
+
 <?php
-include_once("inserirDados.php");
-$validation = new Data($_POST["name"], $_POST["password"]);
-
-
+include_once("view.php");
 ?>
 <body style="display: flex; flex-direction: column; justify-content: center; align-items: center; font-family: Helvetica;">
     <h1>
